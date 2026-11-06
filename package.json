@@ -1,0 +1,11 @@
+{
+  "name": "oee-monitor-mern",
+  "version": "1.0.0",
+  "description": "OEE Monitor - Full MERN Stack Application",
+  "scripts": {
+    "start": "node backend/dist/index.js",
+    "dev": "npm --prefix backend run dev",
+    "build": "npm --prefix frontend run build && npm --prefix backend run build",
+    "seed": "npm --prefix backend run seed"
+  }
+}
